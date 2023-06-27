@@ -1,0 +1,72 @@
+:root {
+  --Dark-Gray: hsl(0, 0%, 63%);
+  --Black: hsl(0, 0%, 0%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+.carrito-container {
+  position: relative;
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+}
+.carrito-container a {
+  display: block;
+  position: absolute;
+  margin-left: 465px;
+}
+
+
+.detalleproducto {
+  display: none;
+  position: absolute;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.carrito-container:hover .detalleproducto {
+  display: block;
+}
+div .container-producto{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: solid var(--Dark-Gray) 1px
+}
+
+.container-logo {
+  margin-top: 10px;
+  width: 150px;
+}
+.container-detalle {
+  margin-top: 40px;
+  height: 150px;
+}
+
+.container-detalle p {
+  color: var(--Very-Dark-Gray);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.01px;
+}
+
+.container-detalle .nombre-prd {
+  color: var(--Black);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 0.01px;
+}
+
+
+button  {
+
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+  background: none;
+}

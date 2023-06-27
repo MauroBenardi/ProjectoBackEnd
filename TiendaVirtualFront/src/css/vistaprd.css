@@ -1,0 +1,71 @@
+/* vistaprd.css */
+
+.vistaprd-container {
+    padding: 0%;
+    margin: 0%;
+
+
+  }
+
+.vistaprd-container .vista-producto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+  
+.vistaprd-container .logo-section {
+    grid-column: span 1;
+    width: 100%;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 80px;
+
+  }
+  
+.vistaprd-container .info-section {
+    grid-column: span 1;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: solid 1px gray;
+    width: 400px;
+  }
+.info-section h1 {
+    text-align: center;
+}
+
+  
+.sizes-section ul {
+    display: flex;
+    margin: 10px;
+}
+.sizes-section ul li {
+    display: flex;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sizes-section ul li:hover {
+    background-color: darkred;;
+    color: #fff;
+  }
+
+
+  .buy-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  
+  .buy-button:hover {
+    background-color: darkred;
+  }

@@ -1,0 +1,95 @@
+.navegacion {
+  position: sticky;
+  font-weight: bold;
+  align-items: center;
+  background-color:rgb(247, 245, 245);
+  width: 100%;
+  height: 70px;
+  top: 0px; 
+}
+.categoria a{
+  color: black;
+}
+.header {
+  display: inline-flex; 
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+
+.categorias {
+  display: inline-flex; 
+  list-style: none;
+  margin-left: 15%;
+}
+
+.categoria {
+  display: inline-flex;
+  margin-right: 20px;
+  position: relative;
+  padding: 10px;
+}
+
+.subcategorias {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 20px;
+  display: none; 
+}
+
+.categoria:hover .subcategorias {
+  display: block;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.barra{
+  margin-left: 5px;
+  font-size: 17px;
+
+}
+
+.subcategorias ul {
+  display: inline-flex;
+}
+
+.subcategorias ul li {
+  margin-right: 40px;
+
+}
+
+.subcategorias ul li a {
+  color: white;
+  margin-bottom: 10px;
+  white-space: nowrap;
+
+}
+
+.subsubcategorias {
+
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.subcategorias .subsubcategorias li {
+  margin-bottom: 5px;
+
+}
+
+.navegacion .subcategorias .subsubcategorias li a{
+  color: #295264; 
+
+}
+
+.categoria a:hover {
+  color: darkred;
+  transition: 0.5s ease;
+}
+
+.navegacion .subcategorias .subsubcategorias li a:hover{
+  color: darkred;
+  transition: 0.5s ease;
+}
